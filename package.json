@@ -1,0 +1,63 @@
+{
+  "name": "@react-component-library/utils",
+  "description": "A collection of utility hooks and components tailored to streamline React application development.",
+  "author": "Khan Cirhan",
+  "version": "0.0.0",
+  "license": "ISC",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "*.md",
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "utils",
+    "react-utils",
+    "react-helpers",
+    "react-component-library",
+    "component"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --p ./tsconfig.build.json && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/react-component-library/utils.git"
+  },
+  "homepage": "https://github.com/react-component-library/utils",
+  "bugs": {
+    "url": "https://github.com/react-component-library/utils/issues"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.2",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "glob": "^10.3.10",
+    "jsdom": "^24.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.7.3",
+    "vite-plugin-lib-inject-css": "^2.0.0",
+    "vitest": "^1.4.0"
+  }
+}
