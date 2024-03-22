@@ -2,7 +2,7 @@
   "name": "@react-component-library/utils",
   "description": "A collection of utility hooks and components tailored to streamline React application development.",
   "author": "Khan Cirhan",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "ISC",
   "type": "module",
   "main": "dist/index.js",
