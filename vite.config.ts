@@ -9,7 +9,6 @@ export default defineConfig({
     build: {
         lib: {
             entry: [
-                // resolve(__dirname, 'lib/index.ts'),
                 resolve(__dirname, 'lib/hooks/index.ts'),
                 // resolve(__dirname, 'lib/hooks/useControlledState/index.ts'),
                 // resolve(__dirname, 'lib/hooks/useDialog/index.ts'),
